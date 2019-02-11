@@ -20,12 +20,9 @@
 
 task main()
 {
-setServo(servoPort, position);
+setServo(servoMotor, 0);
+startMotor(rightMotor, 63);
 wait(5);
-stopMotor(motorPort);
-
-
-
-
+stopMotor(rightMotor);
 
 }
